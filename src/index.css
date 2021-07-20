@@ -1,0 +1,13 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .icons{
+        @apply text-gray-400 text-lg ml-2
+        }
+    .redhovering{
+        @apply transition delay-75 group-hover:text-red-700
+        }
+}
